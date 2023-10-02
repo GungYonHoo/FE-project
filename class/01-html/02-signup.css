@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0 px;
+}
+
+.background {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  width: 1920px;
+  height: 1080px;
+  background: #FFFFFF;
+}
+.SignUpBox {
+  display: flex;
+  flex-direction: column;
+  width: 670px;
+  height: 960px;
+  margin: 60px 625px;
+  background: #FFFFFF;
+  border: 1px solid #AACDFF;
+  box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+  border-radius: 20px;
+}
+
+/* body {
+  
+} */
+
+h2 {
+  width: 466px;
+  height: 94px;
+  margin: 71px 100px 60px;
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 47px;
+  color: #0068FF;
+}
+
+p {
+  width: 158px;
+  height: 23.65px;
+  margin-left: 100px;
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #797979;
+}
+
+.InputLine {
+  border-top: none;
+  border-left:none;
+  border-right: none;
+  border-bottom: 1px solid #cfcfcf; 
+  text-align: center;
+  margin: 0px 102px 0px 102px;
+}
+.radio {
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+}
+
+.Checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 1px solid #e6e6e6;
+  width: 470px;
+}
+
+button {
+  margin-top: 61px;
+  margin-left:100px;
+  margin-right: 100px;
+  height:75px; 
+  background: #FFFFFF;
+  border: 1px solid #0068FF;
+  border-radius: 10px;
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #0068FF;
+}
+  

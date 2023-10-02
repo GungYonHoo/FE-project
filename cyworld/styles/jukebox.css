@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: 'scifibit';
+  src: url("../fonts/scifibit.ttf") format("truetype");
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper__header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.title {
+  color:#55b2e4;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 8px;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-family: scifibit;
+  font-size: 8px;
+  font-weight: 400;
+}
+
+.divideLine {
+  width: 100%;
+  border-top: 1px solid gray;
+}
+
+.albumWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.albumWrapper__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.album-thumbnail {
+  width: 120px;
+  height: 120px;
+}
+
+.album-songtitle {
+  font-size: 11px;
+  font-weight: 700;
+  color: #0F465E;
+}
+
+.album-artist {
+  color: gray;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.wrapper__body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 38px; 
+}
+
+.albumTable {
+  width: 100%;
+  height: 120px;
+  border-top: 1px solid #999999;
+  border-collapse: collapse;   
+}
+
+.albumTable th {
+  height: 20px;
+  font-size: 10px;
+  font-weight: 700; 
+  color: #999999;
+  background-color: #EEEEEE;
+  border-bottom: 1px solid #999999;
+}
+
+.checkbox {
+  width: 12px;
+  height: 12px;
+  padding-left: 10px;
+}
+
+.header__number {
+  text-align: center;
+}
+
+.header__songtitle, .header__artist {
+  text-align: left;
+}
+
+.albumTable td {
+  border-bottom: 1px dashed #999999;
+}
+
+.body__number {
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+  color:black;
+}
+
+.body__songtitle, .body__artist {
+  font-size: 10px;
+  font-weight: 400;
+  color: #0F465E;
+}
+
+
+
+
